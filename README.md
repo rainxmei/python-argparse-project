@@ -1,7 +1,7 @@
 ﻿# Python Argparse Learning Projects
 A collection of CLI (Command Line Interface) tools built while learning Python's argparse library. These projects demonstrate different argparse features from basic argument parsing to subcommands and mutually exclusive groups.
 
-# Projects Overview
+## Projects Overview
 ### 1. Text Analyzer (text_analyzer.py)
 A tool to analyze text files with various statistics and search capabilities.
    
@@ -98,6 +98,7 @@ $ python todo_manager.py done 1
 # Delete a task
 $ python todo_manager.py delete 1
 ```
+
 
 
 
