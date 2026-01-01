@@ -1,0 +1,4 @@
+Ini adalah contoh file teks.
+File ini berisi beberapa baris.
+Mari kita belajar Python dan argparse.
+Python adalah bahasa pemrograman yang populer.
