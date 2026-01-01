@@ -74,7 +74,7 @@ $ python temperature_converter.py -f 77
 $ python temperature_converter.py -k 298.15
 ```
 
-### 4. Todo CLI (todo_cli.py)
+### 4. Todo Manager (todo_manager.py)
 A complete todo list manager with persistent storage.
 
 **Features:**
@@ -87,17 +87,18 @@ A complete todo list manager with persistent storage.
 **Usage:**
 ```bash
 # Add a task
-$ python todo_cli.py add "Learn Python argparse"
+$ python todo_manager.py add "Learn Python argparse"
 
 # View all tasks
-$ python todo_cli.py list
+$ python todo_manager.py list
 
 # Mark task as done (use ID from list)
-$ python todo_cli.py done 1
+$ python todo_manager.py done 1
 
 # Delete a task
-$ python todo_cli.py delete 1
+$ python todo_manager.py delete 1
 ```
+
 
 
 
