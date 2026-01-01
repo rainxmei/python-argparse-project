@@ -5,12 +5,12 @@ A collection of CLI (Command Line Interface) tools built while learning Python's
 ### 1. Text Analyzer (text_analyzer.py)
 A tool to analyze text files with various statistics and search capabilities.
    
-### Features:
+**Features:**
 - Count lines, words, and characters
 - Search for specific text
 - Display file preview
 
-### Usage:
+**Usage:**
 ```bash
 # Basic file reading (shows preview)
 python text_analyzer.py sample.txt
@@ -28,12 +28,12 @@ python text_analyzer.py sample.txt -s "python"
 ### 2. File Manager (subCommand.py)
 A simple file management tool with subcommands for different operations.
 
-### Features:
+**Features:**
 - Create files with optional content
 - Delete files (with force option)
 - List files in a directory
 
-### Usage:
+**Usage:**
 ```bash
 # Create a new file
 python file_manager.py create myfile.txt
@@ -57,12 +57,12 @@ python file_manager.py list -d /path/to/directory
 ### 3. Temperature Converter (temperature_converter.py)
 Convert temperatures between Celsius, Fahrenheit, and Kelvin.
 
-### Features:
+**Features:**
 - Mutually exclusive arguments (can only use one at a time)
 - Type validation (only accepts numbers)
 - Converts to all other units automatically
 
-### Usage:
+**Usage:**
 ```bash
 # Convert from Celsius
 python temperature_converter.py -c 25
@@ -77,14 +77,14 @@ python temperature_converter.py -k 298.15
 ### 4. Todo CLI (todo_cli.py)
 A complete todo list manager with persistent storage.
 
-### Features:
+**Features:**
 - Add tasks
 - Mark tasks as complete
 - Delete tasks
 - View all tasks
 - Data persistence using JSON
 
-### Usage:
+**Usage:**
 ```bash
 # Add a task
 python todo_cli.py add "Learn Python argparse"
@@ -98,6 +98,7 @@ python todo_cli.py done 1
 # Delete a task
 python todo_cli.py delete 1
 ```
+
 
 
 
