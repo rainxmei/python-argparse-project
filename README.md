@@ -2,12 +2,28 @@
 A collection of CLI (Command Line Interface) tools built while learning Python's argparse library. These projects demonstrate different argparse features from basic argument parsing to subcommands and mutually exclusive groups.
 
 # Projects Overview
-### 1. Text Analyzer (text_analyzer.py)
+## 1. Text Analyzer (text_analyzer.py)
    A tool to analyze text files with various statistics and search capabilities.
    
 ### Features:
 - Count lines, words, and characters
 - Search for specific text
 - Display file preview
+
+### Usage:
+```bash
+# Basic file reading (shows preview)
+python text_analyzer.py sample.txt
+
+# Count lines
+python text_analyzer.py sample.txt -l
+
+# Count words and characters
+python text_analyzer.py sample.txt -w -c
+
+# Search for text
+python text_analyzer.py sample.txt -s "python"
+```
+
 
 
