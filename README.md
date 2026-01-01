@@ -36,22 +36,22 @@ A simple file management tool with subcommands for different operations.
 **Usage:**
 ```bash
 # Create a new file
-$ python file_manager.py create myfile.txt
+$ python subCommand.py create myfile.txt
 
 # Create with content
-$ python file_manager.py create myfile.txt -c "Hello World"
+$ python subCommand.py create myfile.txt -c "Hello World"
 
 # Delete a file
-$ python file_manager.py delete myfile.txt
+$ python subCommand.py delete myfile.txt
 
 # Force delete
-$ python file_manager.py delete myfile.txt -f
+$ python subCommand.py delete myfile.txt -f
 
 # List files in current directory
-python file_manager.py list
+python subCommand.py list
 
 # List files in specific directory
-$ python file_manager.py list -d /path/to/directory
+$ python subCommand.py list -d /path/to/directory
 ```
 
 ### 3. Temperature Converter (temperature_converter.py)
@@ -98,6 +98,7 @@ $ python todo_cli.py done 1
 # Delete a task
 $ python todo_cli.py delete 1
 ```
+
 
 
 
